@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>simple banking system</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+  </head>
+  <body style="background-image:url(data:image/jpeg;base64,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);background-repeat: no-repeat;background-size: cover;">
+    <h3><b><i align="center" style="margin-left:500px">ONLINE BANKING SYSTEM</i></b></h3>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="font-size:22px;">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/retrieve" style="font-size:22px;">VIEW ALL CUSTOMERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/transfer" style="font-size:22px;">SEND MONEY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/receive" style="font-size:22px;">RECEIVE MONEY</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+             <p style="font-size:22px;">ONLINE BANKING SYSTEM</p>
+          </form> -->
+          <h1 style="margin-left:500px;font-size:22px;" align="center">balance:<%=data%></h1>
+        </div>
+      </div>
+    </nav>
+     <!-- <div class="navgridcontainer" style="background-color: beige;border: 10px;">
+           <div class="griditem"><a href="#">HOME</a></div>
+           <div class="griditem"><a href="/retrieve">VIEW ALL CUSTOMERS</a></div>
+           <div class="griditem"><a href="/transfer">SEND MONEY</a></div>
+           <div class="griditem"><a href="/receive">RECEIVE MONEY</a></div>
+           <div class="griditem" style="font-size: 30px;">ONLINE BANKING SYSTEM</div>
+           <div class="griditem" style="font-size: 30px;">balance:<%=data%></div>
+     </div> -->
+    <br>
+    <br>
+     <div class="grid-container" style="margin-top:100px;">
+      <div class="grid-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://tse1.mm.bing.net/th/id/OIP.yaqdvbAWoFQCQgRDnT1gWgHaCp?w=307&h=124&c=7&r=0&o=5&dpr=1.3&pid=1.7"  style="width:350px;height:350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Online Banking System</h1>
+              <p>Online Banking System has made our work easier for bank transactions which is efficient and quick.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://tse1.mm.bing.net/th/id/OIP.vR6g99pxy4UZQ89LkstsGAHaHa?w=215&h=214&c=7&r=0&o=5&dpr=1.3&pid=1.7"style="width:350px;height:350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Transfer money</h1>
+              <p>To transfer money select transfer money in navbar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.q9ob6tSSVYADeLkjvj--MwHaHa?w=210&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7"style="width:350px;height:350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>View your recent transaction</h1>
+              <p>View one customer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.-t4aV8NLul9HJ7yH2JHZoQHaEZ?w=274&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" style="width:350px;height:350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>View all customers</h1>
+              <p>Select view all customers to view all your transcations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </body>
+</html>

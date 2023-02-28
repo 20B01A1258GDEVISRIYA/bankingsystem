@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+  <title>view your transactions</title>
+</head>
+
+<body>
+  <div style="width:800px;height:1000px;margin-top:100px;margin-left:400px;">
+    <table class="table table-striped" style="border:2px;">
+      <thead>
+        <tr>
+          <th scope="col">Receive name</th>
+          <th scope="col">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% responseArr.forEach(function(result){ %>
+          <tr>
+            <td>
+              <%= result.receiver %>
+            </td>
+            <td>
+              <%= result.amount %>
+            </td>
+          </tr>
+          <% }); %>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
