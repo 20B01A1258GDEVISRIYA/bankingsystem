@@ -2,12 +2,8 @@
   "name": "t1bankingsystem",
   "version": "0.0.0",
   "private": true,
-  "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
